@@ -1,0 +1,14 @@
+{
+  "name": "ts-recursive-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "./pkg",
+    "./test-dep"
+  ],
+  "dependencies": {
+    "typescript": "3.4.5"
+  }
+}
